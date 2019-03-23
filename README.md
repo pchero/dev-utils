@@ -4,7 +4,7 @@ development utils
 # Usage
 
 <pre>
-#!/bin/sh
+#!/bin/bash
 
 pushd ~/git/dev-utils > /dev/null
 ./main.sh
