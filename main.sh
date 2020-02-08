@@ -77,7 +77,7 @@ function action_sshfs {
         $DIALOG_OK)
             clear
             echo "Mounting the ssh filesystem. $target"
-            sshfs $target:/ ~/remote/$target
+            sshfs $target:/ ~/remote/$target &
             ;;
         $DIALOG_CANCEL)
             main
