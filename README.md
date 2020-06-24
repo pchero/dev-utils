@@ -2,9 +2,11 @@
 development utils
 
 # Usage
-'''
-#!/bin/sh
+
+<pre>
+#!/bin/bash
+
 pushd ~/git/dev-utils > /dev/null
 ./main.sh
 popd > /dev/null
-'''
+</pre>
